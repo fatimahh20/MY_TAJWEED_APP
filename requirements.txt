@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-multipart
+torch
+transformers
+librosa
+pandas
+openpyxl
+pyctcdecode
+phonemizer
+sentencepiece
