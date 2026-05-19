@@ -1,0 +1,193 @@
+name: my_tajweed_app
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated
+dependencies:
+  flutter:
+    sdk: flutter
+
+  audioplayers: ^5.2.1
+  flutter_sound: ^9.2.13
+  path_provider: ^2.1.3
+  http: ^1.2.0
+  permission_handler: ^11.3.1
+  record: 4.4.4
+
+
+
+
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.6
+  flutter_launcher_icons: ^0.14.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^3.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+flutter_launcher_icons:
+  android: true
+  image_path: "assets/icons/logo.png"
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/logo.png
+    - assets/images/3.png
+    - assets/images/4.png
+    - assets/images/koran_384372.png
+    - assets/images/lessons_icons.png
+    - assets/images/practice_icon.png
+    - assets/images/makharij_icon.png
+    - assets/images/cavity.png
+    - assets/images/halaq.png
+    - assets/images/tongue.png
+    - assets/images/nose.png
+    - assets/images/lips.png
+    - assets/images/diagram.png
+    - assets/sounds/abad.mp3
+    - assets/sounds/s2001.mp3
+    - assets/sounds/s2002.mp3
+    - assets/sounds/s2003.mp3
+    - assets/sounds/s2004.mp3
+    - assets/sounds/s2005.mp3
+    - assets/sounds/s2006.mp3
+    - assets/sounds/s2007.mp3
+    - assets/sounds/s2008.mp3
+    - assets/sounds/s2009.mp3
+    - assets/sounds/s2010.mp3
+    - assets/sounds/s2011.mp3
+    - assets/sounds/s2012.mp3
+    - assets/sounds/s2013.mp3
+    - assets/sounds/s2014.mp3
+    - assets/sounds/s2015.mp3
+    - assets/sounds/s2016.mp3
+    - assets/sounds/s2017.mp3
+    - assets/sounds/s2018.mp3
+    - assets/sounds/s2019.mp3
+    - assets/sounds/s2020.mp3
+    - assets/sounds/s2021.mp3
+    - assets/sounds/s2022.mp3
+    - assets/sounds/s2023.mp3
+    - assets/sounds/s2024.mp3
+    - assets/sounds/s2025.mp3
+    - assets/sounds/s2026.mp3
+    - assets/sounds/s2027.mp3
+    - assets/sounds/s2028.mp3
+    - assets/sounds/s2029.mp3
+    - assets/sounds/s2030.mp3
+    - assets/sounds/s2032.mp3
+    - assets/sounds/s2033.mp3
+    - assets/sounds/s2031.mp3
+    - assets/sounds/s2038.mp3
+    - assets/sounds/s2039.mp3
+    - assets/sounds/s2040.mp3
+    - assets/sounds/s2042.mp3
+    - assets/sounds/s2046.mp3
+    - assets/sounds/s2047.mp3
+    - assets/sounds/s2048.mp3
+    - assets/sounds/s2050.mp3
+    - assets/sounds/s2051.mp3
+    - assets/sounds/s2054.mp3
+    - assets/sounds/s2062.mp3
+    - assets/sounds/s2063.mp3
+    - assets/sounds/s2064.mp3
+    - assets/sounds/s2065.mp3
+    - assets/sounds/s2066.mp3
+    - assets/sounds/s2067.mp3
+    - assets/sounds/s2068.mp3
+    - assets/sounds/s2069.mp3
+    - assets/sounds/s2070.mp3
+    - assets/sounds/s2071.mp3
+    - assets/sounds/s2073.mp3
+    - assets/sounds/s2075.mp3
+    - assets/sounds/s2076.mp3
+    - assets/sounds/s2077.mp3
+    - assets/sounds/s2078.mp3
+    - assets/sounds/s2079.mp3
+    - assets/sounds/s2080.mp3
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Urdu
+      fonts:
+        - asset: assets/fonts/Jameel Noori Nastaleeq Regular.ttf
+
+    - family: Arabic
+      fonts:
+        - asset: assets/fonts/KFGQPC Uthmanic Script HAFS Regular.otf
+
+    - family: Arabic2
+      fonts:
+        - asset: assets/fonts/Arabic Typesetting Regular.ttf
+
+    - family: English
+      fonts:
+        - asset: assets/fonts/PatuaOne-Regular.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+
+
